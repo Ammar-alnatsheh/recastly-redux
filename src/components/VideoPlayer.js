@@ -12,6 +12,7 @@ var VideoPlayer = ({video}) => (
         <div className="channel-title">{`Channel: ${video.snippet.channelTitle}`}</div>
         <div>{video.snippet.description}</div>
         <div>{`Publish date: ${new Date(video.snippet.publishedAt).toLocaleDateString()}`}</div>
+        <button className="videoplayer-footer">Add more videos</button>
       </div>
     </div>
 );

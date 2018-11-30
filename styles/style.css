@@ -75,4 +75,21 @@ body {
   color: red;
   border-bottom: solid black;
   cursor: pointer;
+  /*
+      helpful link
+      https://www.w3schools.com/cssref/pr_class_cursor.asp
+  */
 }
+
+.videoplayer-footer {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
