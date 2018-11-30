@@ -9,7 +9,9 @@ var VideoPlayer = ({video}) => (
       </div>
       <div className="video-player-details">
         <h3>{video.snippet.title}</h3>
+        <div className="channel-title">{`Channel: ${video.snippet.channelTitle}`}</div>
         <div>{video.snippet.description}</div>
+        <div>{`Publish date: ${new Date(video.snippet.publishedAt).toLocaleDateString()}`}</div>
       </div>
     </div>
 );

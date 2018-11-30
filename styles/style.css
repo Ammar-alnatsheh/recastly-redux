@@ -70,3 +70,9 @@ body {
   font-size: 12px;
   color: #999;
 }
+
+.channel-title {
+  color: red;
+  border-bottom: solid black;
+  cursor: pointer;
+}
